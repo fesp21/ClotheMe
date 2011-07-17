@@ -15,17 +15,16 @@
 @synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+{   
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[ClotheMeViewController alloc] initWithNibName:@"ClotheMeViewController" bundle:nil]; 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    [Crittercism initWithAppID: @"4cd78d3e66d787328d00003c"
-                        andKey:@"4cd78d3e66d787328d00003csvlorgmd"
-                     andSecret:@"7ep0tvnqelpffj9munxhtwidwbjbxyqu"
-         andMainViewController:self.viewController];
+    [Crittercism initWithAppID: @"4e22f32addf5202545008f70"
+                        andKey:@"4e22f32addf5202545008f70upufmecd"
+                     andSecret:@"16cshrqonwzopdpyg2bjsakuu87mvkzy"
+         andMainViewController:_viewController];
     
     return YES;
 }

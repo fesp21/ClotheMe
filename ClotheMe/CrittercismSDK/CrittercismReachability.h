@@ -65,6 +65,9 @@ typedef enum {
 //reachabilityWithHostName- Use to check the reachability of a particular host name. 
 + (CrittercismReachability*) reachabilityWithHostName: (NSString*) hostName;
 
+//To get rid of annoying warning
+struct sockaddr_in;
+
 //reachabilityWithAddress- Use to check the reachability of a particular IP address. 
 + (CrittercismReachability*) reachabilityWithAddress: (const struct sockaddr_in*) hostAddress;
 

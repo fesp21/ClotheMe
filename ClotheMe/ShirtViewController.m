@@ -64,7 +64,6 @@
 
 -(IBAction)goToUrl:(id)sender {
     [[UIApplication sharedApplication] openURL:[urls objectAtIndex:((UIButton*)sender).tag]];
-    
 }
 
 #pragma mark - View lifecycle

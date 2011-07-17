@@ -13,15 +13,7 @@
 
 @synthesize shirtViewController = _shirtViewController, pantsViewController = _pantsViewController;
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
     if (self.shirtViewController == nil) {    
@@ -56,45 +48,18 @@
                                               [NSURL URLWithString:@"http://m.oldnavy.gap.com/product.html?dn=op859468022&dv=1&shopid=1&pdn=oc5211"], nil]];         
     }
     
-    
-    UIButton *feedbackBtn = [[UIButton alloc] initWithFrame:CGRectMake(208.0f, 410.0f, 102.0f, 60.0f)];
+    UIButton *feedbackBtn = [[UIButton alloc] initWithFrame:CGRectMake(258.0f, 440.0f, 102.0/2, 60.0/2)];
     [feedbackBtn setImage:[UIImage imageNamed:@"btn-crittercism.png"] forState:UIControlStateNormal];
+    [feedbackBtn setImage:[UIImage imageNamed:@"btn-crittercism-pressed.png"] forState:UIControlEventTouchDown];
     [feedbackBtn addTarget:self action:@selector(crittercismPressed:) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:feedbackBtn];
 }
 
-- (IBAction)crittercismPressed:(id)sender
-{
+- (IBAction)crittercismPressed:(id)sender {
     [Crittercism showCrittercism];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
