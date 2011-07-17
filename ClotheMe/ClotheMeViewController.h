@@ -18,9 +18,6 @@
 @property(nonatomic, retain) ShirtViewController *shirtViewController;
 @property(nonatomic, retain) ShirtViewController *pantsViewController;
 
--(IBAction)sayHello:(id)sender;
 -(IBAction)crittercismPressed:(id)sender;
--(void)makeCrittercismButton;
--(IBAction)launchCrittercism:(id)sender;
 
 @end

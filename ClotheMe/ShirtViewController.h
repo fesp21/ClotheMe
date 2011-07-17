@@ -14,7 +14,6 @@
 }
 
 -(void)loadImages:(NSArray*)images urls:(NSArray*)surls;
--(IBAction)sayHello:(id)sender;
 -(IBAction)goToUrl:(id)sender;
 
 @property (nonatomic, retain) UIScrollView* scrollView;

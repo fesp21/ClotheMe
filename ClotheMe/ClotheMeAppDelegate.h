@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Crittercism.h"
 #import "ShirtViewController.h"
+#import "Crittercism.h"
 
 @class ClotheMeViewController;
 
