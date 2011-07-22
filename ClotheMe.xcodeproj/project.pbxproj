@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810C11C513D8892D002250AD /* Ebay.m in Sources */ = {isa = PBXBuildFile; fileRef = 810C11C413D8892D002250AD /* Ebay.m */; };
 		8114C39513D2558F00057981 /* pantsblue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8114C38F13D2558F00057981 /* pantsblue@2x.png */; };
 		8114C39613D2558F00057981 /* pantsgrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8114C39013D2558F00057981 /* pantsgrey@2x.png */; };
 		8114C39713D2558F00057981 /* pantssweat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8114C39113D2558F00057981 /* pantssweat@2x.png */; };
 		8114C39813D2558F00057981 /* shirtblack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8114C39213D2558F00057981 /* shirtblack@2x.png */; };
 		8114C39913D2558F00057981 /* shirtred@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8114C39313D2558F00057981 /* shirtred@2x.png */; };
 		8114C39A13D2558F00057981 /* shirtyellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8114C39413D2558F00057981 /* shirtyellow@2x.png */; };
+		8118E77913D3871C00664AEA /* Crittercism_v2_9_8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8118E77813D3871C00664AEA /* Crittercism_v2_9_8.a */; };
+		81AD2A1C13D3694B00FA5256 /* ebay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AD2A1B13D3694B00FA5256 /* ebay@2x.png */; };
 		81BA300F13D26B3400CA16A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D564BE13D2668500000984 /* CoreLocation.framework */; };
+		81BB906613D724B200FAF0B4 /* PrivateInfo in Resources */ = {isa = PBXBuildFile; fileRef = 81BB906513D724B200FAF0B4 /* PrivateInfo */; };
+		81BB906C13D744D300FAF0B4 /* JSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BB906B13D744D300FAF0B4 /* JSONLoader.m */; };
 		81D564B113D25EF700000984 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D564AF13D25EF700000984 /* icon.png */; };
 		81D564B213D25EF700000984 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D564B013D25EF700000984 /* icon@2x.png */; };
 		81D564B813D265D800000984 /* btn-crittercism.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D564B413D265D700000984 /* btn-crittercism.png */; };
@@ -104,16 +109,22 @@
 		84C1E34013D325F700E03A64 /* CrittercismDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C1E2F713D325F700E03A64 /* CrittercismDescriptionViewController.xib */; };
 		84C1E34113D325F700E03A64 /* CrittercismRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C1E2F813D325F700E03A64 /* CrittercismRootViewController.xib */; };
 		84C1E34213D325F700E03A64 /* CrittercismViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C1E2F913D325F700E03A64 /* CrittercismViewController.xib */; };
-		84C1E34713D327B300E03A64 /* Crittercism_v2_9_8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C1E29B13D325F700E03A64 /* Crittercism_v2_9_8.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		810C11C313D8892D002250AD /* Ebay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ebay.h; sourceTree = "<group>"; };
+		810C11C413D8892D002250AD /* Ebay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ebay.m; sourceTree = "<group>"; };
 		8114C38F13D2558F00057981 /* pantsblue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pantsblue@2x.png"; sourceTree = "<group>"; };
 		8114C39013D2558F00057981 /* pantsgrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pantsgrey@2x.png"; sourceTree = "<group>"; };
 		8114C39113D2558F00057981 /* pantssweat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pantssweat@2x.png"; sourceTree = "<group>"; };
 		8114C39213D2558F00057981 /* shirtblack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shirtblack@2x.png"; sourceTree = "<group>"; };
 		8114C39313D2558F00057981 /* shirtred@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shirtred@2x.png"; sourceTree = "<group>"; };
 		8114C39413D2558F00057981 /* shirtyellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shirtyellow@2x.png"; sourceTree = "<group>"; };
+		8118E77813D3871C00664AEA /* Crittercism_v2_9_8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Crittercism_v2_9_8.a; sourceTree = "<group>"; };
+		81AD2A1B13D3694B00FA5256 /* ebay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ebay@2x.png"; sourceTree = "<group>"; };
+		81BB906513D724B200FAF0B4 /* PrivateInfo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PrivateInfo; sourceTree = "<group>"; };
+		81BB906A13D744D200FAF0B4 /* JSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONLoader.h; sourceTree = "<group>"; };
+		81BB906B13D744D300FAF0B4 /* JSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONLoader.m; sourceTree = "<group>"; };
 		81D564AF13D25EF700000984 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		81D564B013D25EF700000984 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		81D564B413D265D700000984 /* btn-crittercism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-crittercism.png"; sourceTree = "<group>"; };
@@ -139,7 +150,6 @@
 		81E3B19413D2106500C4EB57 /* ShirtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShirtViewController.h; sourceTree = "<group>"; };
 		81E3B19513D2106500C4EB57 /* ShirtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShirtViewController.m; sourceTree = "<group>"; };
 		84C1E29A13D325F700E03A64 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
-		84C1E29B13D325F700E03A64 /* Crittercism_v2_9_8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Crittercism_v2_9_8.a; sourceTree = "<group>"; };
 		84C1E29C13D325F700E03A64 /* CrittercismAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismAboutViewController.h; sourceTree = "<group>"; };
 		84C1E29D13D325F700E03A64 /* CrittercismAddCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismAddCommentViewController.h; sourceTree = "<group>"; };
 		84C1E29E13D325F700E03A64 /* CrittercismAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismAddViewController.h; sourceTree = "<group>"; };
@@ -237,13 +247,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C1E34713D327B300E03A64 /* Crittercism_v2_9_8.a in Frameworks */,
 				81BA300F13D26B3400CA16A5 /* CoreLocation.framework in Frameworks */,
 				81D564C313D2669400000984 /* QuartzCore.framework in Frameworks */,
 				81D564C113D2668E00000984 /* SystemConfiguration.framework in Frameworks */,
 				81E3B17713D20F8B00C4EB57 /* UIKit.framework in Frameworks */,
 				81E3B17913D20F8B00C4EB57 /* Foundation.framework in Frameworks */,
 				81E3B17B13D20F8B00C4EB57 /* CoreGraphics.framework in Frameworks */,
+				8118E77913D3871C00664AEA /* Crittercism_v2_9_8.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +303,12 @@
 		81E3B17C13D20F8B00C4EB57 /* ClotheMe */ = {
 			isa = PBXGroup;
 			children = (
+				81BB906513D724B200FAF0B4 /* PrivateInfo */,
 				84C1E29913D325F700E03A64 /* CrittercismSDK */,
+				81BB906A13D744D200FAF0B4 /* JSONLoader.h */,
+				81BB906B13D744D300FAF0B4 /* JSONLoader.m */,
+				810C11C313D8892D002250AD /* Ebay.h */,
+				810C11C413D8892D002250AD /* Ebay.m */,
 				81E3B18513D20F8B00C4EB57 /* ClotheMeAppDelegate.h */,
 				81E3B18613D20F8B00C4EB57 /* ClotheMeAppDelegate.m */,
 				81E3B18813D20F8B00C4EB57 /* ClotheMeViewController.h */,
@@ -309,6 +324,7 @@
 		81E3B17D13D20F8B00C4EB57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81AD2A1B13D3694B00FA5256 /* ebay@2x.png */,
 				81D564AF13D25EF700000984 /* icon.png */,
 				81D564B013D25EF700000984 /* icon@2x.png */,
 				81D564B413D265D700000984 /* btn-crittercism.png */,
@@ -338,8 +354,8 @@
 		84C1E29913D325F700E03A64 /* CrittercismSDK */ = {
 			isa = PBXGroup;
 			children = (
+				8118E77813D3871C00664AEA /* Crittercism_v2_9_8.a */,
 				84C1E29A13D325F700E03A64 /* Crittercism.h */,
-				84C1E29B13D325F700E03A64 /* Crittercism_v2_9_8.a */,
 				84C1E29C13D325F700E03A64 /* CrittercismAboutViewController.h */,
 				84C1E29D13D325F700E03A64 /* CrittercismAddCommentViewController.h */,
 				84C1E29E13D325F700E03A64 /* CrittercismAddViewController.h */,
@@ -600,6 +616,8 @@
 				84C1E34013D325F700E03A64 /* CrittercismDescriptionViewController.xib in Resources */,
 				84C1E34113D325F700E03A64 /* CrittercismRootViewController.xib in Resources */,
 				84C1E34213D325F700E03A64 /* CrittercismViewController.xib in Resources */,
+				81AD2A1C13D3694B00FA5256 /* ebay@2x.png in Resources */,
+				81BB906613D724B200FAF0B4 /* PrivateInfo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +632,8 @@
 				81E3B18713D20F8B00C4EB57 /* ClotheMeAppDelegate.m in Sources */,
 				81E3B18B13D20F8B00C4EB57 /* ClotheMeViewController.m in Sources */,
 				81E3B19613D2106500C4EB57 /* ShirtViewController.m in Sources */,
+				81BB906C13D744D300FAF0B4 /* JSONLoader.m in Sources */,
+				810C11C513D8892D002250AD /* Ebay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,7 +3,7 @@
 //  ClotheMe
 //
 //  Created by Alex Tsang on 7/16/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Altsa. All rights reserved.
 //
 
 #import "ClotheMeAppDelegate.h"
@@ -16,17 +16,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {   
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.viewController = [[ClotheMeViewController alloc] initWithNibName:@"ClotheMeViewController" bundle:nil]; 
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.viewController = [[[ClotheMeViewController alloc] initWithNibName:@"ClotheMeViewController" bundle:nil] autorelease]; 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    [Crittercism initWithAppID: @"4e22f32addf5202545008f70"
-                        andKey:@"4e22f32addf5202545008f70upufmecd"
-                     andSecret:@"16cshrqonwzopdpyg2bjsakuu87mvkzy"
+    //Don't autorelease cos crittercism needs its own copies
+	NSDictionary *privatedatadc = [JSONLoader fileAsDictionary:@"PrivateInfo/info" withExtention:@"json"];
+    [Crittercism initWithAppID:[[[privatedatadc objectForKey:@"CrittercismData"] objectForKey:@"AppID"] copy]
+                        andKey:[[[privatedatadc objectForKey:@"CrittercismData"] objectForKey:@"Key"] copy]
+                     andSecret:[[[privatedatadc objectForKey:@"CrittercismData"] objectForKey:@"Secret"] copy]
          andMainViewController:_viewController];
     
     return YES;
+}
+
+- (void)dealloc {
+    //self.window = nil;
+    //self.viewController = nil;
+    
+    [super dealloc];
 }
 
 @end

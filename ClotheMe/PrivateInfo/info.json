@@ -1,0 +1,10 @@
+{
+    "CrittercismData": {
+        "AppID": "<CRITTERCISM_APP_ID>",
+        "Key": "<CRITTERCISM_KEY>",
+        "Secret": "<CRITTERCISM_SECRET>"
+    },
+    "EbayData": {
+        "Key": "<EBAY_API_KEY>"
+    }
+}
