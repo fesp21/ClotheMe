@@ -35,7 +35,6 @@
 		81E3B18713D20F8B00C4EB57 /* ClotheMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3B18613D20F8B00C4EB57 /* ClotheMeAppDelegate.m */; };
 		81E3B18913D20F8B00C4EB57 /* ClotheMeViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 81E3B18813D20F8B00C4EB57 /* ClotheMeViewController.h */; };
 		81E3B18B13D20F8B00C4EB57 /* ClotheMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3B18A13D20F8B00C4EB57 /* ClotheMeViewController.m */; };
-		81E3B18E13D20F8B00C4EB57 /* ClotheMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E3B18C13D20F8B00C4EB57 /* ClotheMeViewController.xib */; };
 		81E3B19613D2106500C4EB57 /* ShirtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3B19513D2106500C4EB57 /* ShirtViewController.m */; };
 		84C1E2FB13D325F700E03A64 /* crittercism-arrow-l.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1E2B113D325F700E03A64 /* crittercism-arrow-l.png */; };
 		84C1E2FC13D325F700E03A64 /* crittercism-arrow-l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1E2B213D325F700E03A64 /* crittercism-arrow-l@2x.png */; };
@@ -146,7 +145,6 @@
 		81E3B18613D20F8B00C4EB57 /* ClotheMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClotheMeAppDelegate.m; sourceTree = "<group>"; };
 		81E3B18813D20F8B00C4EB57 /* ClotheMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClotheMeViewController.h; sourceTree = "<group>"; };
 		81E3B18A13D20F8B00C4EB57 /* ClotheMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClotheMeViewController.m; sourceTree = "<group>"; };
-		81E3B18D13D20F8B00C4EB57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ClotheMeViewController.xib; sourceTree = "<group>"; };
 		81E3B19413D2106500C4EB57 /* ShirtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShirtViewController.h; sourceTree = "<group>"; };
 		81E3B19513D2106500C4EB57 /* ShirtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShirtViewController.m; sourceTree = "<group>"; };
 		84C1E29A13D325F700E03A64 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
@@ -305,17 +303,13 @@
 			children = (
 				81BB906513D724B200FAF0B4 /* PrivateInfo */,
 				84C1E29913D325F700E03A64 /* CrittercismSDK */,
-				81BB906A13D744D200FAF0B4 /* JSONLoader.h */,
-				81BB906B13D744D300FAF0B4 /* JSONLoader.m */,
-				810C11C313D8892D002250AD /* Ebay.h */,
-				810C11C413D8892D002250AD /* Ebay.m */,
+				8421C0EE13D9476B006D6C35 /* Helpers */,
 				81E3B18513D20F8B00C4EB57 /* ClotheMeAppDelegate.h */,
 				81E3B18613D20F8B00C4EB57 /* ClotheMeAppDelegate.m */,
 				81E3B18813D20F8B00C4EB57 /* ClotheMeViewController.h */,
 				81E3B18A13D20F8B00C4EB57 /* ClotheMeViewController.m */,
 				81E3B19413D2106500C4EB57 /* ShirtViewController.h */,
 				81E3B19513D2106500C4EB57 /* ShirtViewController.m */,
-				81E3B18C13D20F8B00C4EB57 /* ClotheMeViewController.xib */,
 				81E3B17D13D20F8B00C4EB57 /* Supporting Files */,
 			);
 			path = ClotheMe;
@@ -324,15 +318,7 @@
 		81E3B17D13D20F8B00C4EB57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				81AD2A1B13D3694B00FA5256 /* ebay@2x.png */,
-				81D564AF13D25EF700000984 /* icon.png */,
-				81D564B013D25EF700000984 /* icon@2x.png */,
-				81D564B413D265D700000984 /* btn-crittercism.png */,
-				81D564B713D265D700000984 /* btn-crittercism@2x.png */,
-				81D564B513D265D700000984 /* btn-crittercism-pressed.png */,
-				81D564B613D265D700000984 /* btn-crittercism-pressed@2x.png */,
-				8114C39B13D2559300057981 /* Pants */,
-				81E6624013D215C200BA521D /* Shirts */,
+				8421C0ED13D94698006D6C35 /* Images */,
 				81E3B17E13D20F8B00C4EB57 /* ClotheMe-Info.plist */,
 				81E3B17F13D20F8B00C4EB57 /* InfoPlist.strings */,
 				81E3B18213D20F8B00C4EB57 /* main.m */,
@@ -349,6 +335,57 @@
 				8114C39413D2558F00057981 /* shirtyellow@2x.png */,
 			);
 			name = Shirts;
+			sourceTree = "<group>";
+		};
+		8421C0E913D94663006D6C35 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				81D564AF13D25EF700000984 /* icon.png */,
+				81D564B013D25EF700000984 /* icon@2x.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		8421C0EA13D9466C006D6C35 /* CrittercismButtons */ = {
+			isa = PBXGroup;
+			children = (
+				81D564B413D265D700000984 /* btn-crittercism.png */,
+				81D564B713D265D700000984 /* btn-crittercism@2x.png */,
+				81D564B513D265D700000984 /* btn-crittercism-pressed.png */,
+				81D564B613D265D700000984 /* btn-crittercism-pressed@2x.png */,
+			);
+			name = CrittercismButtons;
+			sourceTree = "<group>";
+		};
+		8421C0EB13D94682006D6C35 /* Ebay */ = {
+			isa = PBXGroup;
+			children = (
+				81AD2A1B13D3694B00FA5256 /* ebay@2x.png */,
+			);
+			name = Ebay;
+			sourceTree = "<group>";
+		};
+		8421C0ED13D94698006D6C35 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8421C0EB13D94682006D6C35 /* Ebay */,
+				8421C0E913D94663006D6C35 /* Icon */,
+				8421C0EA13D9466C006D6C35 /* CrittercismButtons */,
+				8114C39B13D2559300057981 /* Pants */,
+				81E6624013D215C200BA521D /* Shirts */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8421C0EE13D9476B006D6C35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				81BB906A13D744D200FAF0B4 /* JSONLoader.h */,
+				81BB906B13D744D300FAF0B4 /* JSONLoader.m */,
+				810C11C313D8892D002250AD /* Ebay.h */,
+				810C11C413D8892D002250AD /* Ebay.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		84C1E29913D325F700E03A64 /* CrittercismSDK */ = {
@@ -531,7 +568,6 @@
 			files = (
 				81E3B18113D20F8B00C4EB57 /* InfoPlist.strings in Resources */,
 				81E3B18913D20F8B00C4EB57 /* ClotheMeViewController.h in Resources */,
-				81E3B18E13D20F8B00C4EB57 /* ClotheMeViewController.xib in Resources */,
 				8114C39513D2558F00057981 /* pantsblue@2x.png in Resources */,
 				8114C39613D2558F00057981 /* pantsgrey@2x.png in Resources */,
 				8114C39713D2558F00057981 /* pantssweat@2x.png in Resources */,
@@ -646,14 +682,6 @@
 				81E3B18013D20F8B00C4EB57 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		81E3B18C13D20F8B00C4EB57 /* ClotheMeViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81E3B18D13D20F8B00C4EB57 /* en */,
-			);
-			name = ClotheMeViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ShirtViewController.h"
+#import "ClotheMeViewController.h"
 #import "Crittercism.h"
 #import "JSONLoader.h"
 

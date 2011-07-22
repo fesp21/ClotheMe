@@ -7,7 +7,6 @@
 //
 
 #import "ClotheMeAppDelegate.h"
-#import "ClotheMeViewController.h"
 
 @implementation ClotheMeAppDelegate
 
@@ -17,7 +16,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {   
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    self.viewController = [[[ClotheMeViewController alloc] initWithNibName:@"ClotheMeViewController" bundle:nil] autorelease]; 
+    self.viewController = [[[ClotheMeViewController alloc] initWithNibName:nil bundle:nil] autorelease]; 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
@@ -32,8 +31,8 @@
 }
 
 - (void)dealloc {
-    //self.window = nil;
-    //self.viewController = nil;
+    self.window = nil;
+    self.viewController = nil;
     
     [super dealloc];
 }
